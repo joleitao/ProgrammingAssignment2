@@ -52,7 +52,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
         ## outputting a list with the above defined functions.
         ## individual functions are accessible by calling 
-        ## makeCacheMatrix$'name_of_function'() 
+        ## cache_mat$'name_of_function'() 
         ## (the set functions need a specified argument)
         list(set = set, get = get,
              setinv = setinv,
